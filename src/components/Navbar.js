@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/jr.png';
+import circusmonkey from '../img/monkey/circus-monkey.png';
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
+          <figure className="image is-32x32">
             <img src={logo} alt="JepRas" />
           </figure>
         </Link>
       </div>
-      <div className="navbar-start">
+      <div className="navbar-menu">
         <Link className="navbar-item" to="/about">
           Me
         </Link>
@@ -29,18 +30,7 @@ const Navbar = () => (
           Blog
         </Link>
       </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={logo} alt="Github" />
-          </span>
-        </a>
-      </div>
+      <div className="navbar-end" />
     </div>
   </nav>
 );
