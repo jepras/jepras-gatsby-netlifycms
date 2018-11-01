@@ -2,10 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="screen">
     {/* <Helmet>
       <title>Hey</title>
       <script
@@ -19,7 +20,8 @@ const TemplateWrapper = ({ children }) => (
       script="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     />
     <Navbar />
-    <div>{children}</div>
+    <div className="page">{children}</div>
+    <Footer />
   </div>
 );
 

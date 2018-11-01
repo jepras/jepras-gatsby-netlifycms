@@ -4,7 +4,7 @@ import logo from '../img/jr.png';
 import circusmonkey from '../img/monkey/circus-monkey.png';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
@@ -14,9 +14,6 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-menu">
-        <Link className="navbar-item" to="/about">
-          Me
-        </Link>
         <Link className="navbar-item" to="/now">
           Now
         </Link>

@@ -6,10 +6,7 @@ import monkey from '../img/monkey/monkey.png';
 import circusmonkey from '../img/monkey/circus-monkey.png';
 import tailmonkey from '../img/monkey/tailmonkey.png';
 import jeppe from '../img/jeppe-no-bg.png';
-import instagram from '../img/instagram.svg';
-import twitter from '../img/twitter.svg';
-import linkedin from '../img/linkedin.svg';
-import github from '../img/github-icon.svg';
+import SocialMedia from '../components/SocialMedia';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGhost, faTwitter } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +15,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="is-white is-halfheight has-text-centered">
+        <section className="is-white is-halfheight has-text-centered jumbotron">
           <img
             src={circusmonkey}
             alt="circusmonkey"
@@ -36,26 +33,7 @@ export default class IndexPage extends React.Component {
                       the world.
                     </h2>
 
-                    <img
-                      src={instagram}
-                      alt="instagram"
-                      className="image display-inline is-16x16"
-                    />
-                    <img
-                      src={twitter}
-                      alt="twitter"
-                      className="image display-inline is-16x16"
-                    />
-                    <img
-                      src={github}
-                      alt="github"
-                      className="image display-inline is-16x16"
-                    />
-                    <img
-                      src={linkedin}
-                      alt="linkedin"
-                      className="image display-inline is-16x16"
-                    />
+                    <SocialMedia />
                   </div>
                 </div>
               </div>
@@ -100,11 +78,11 @@ export default class IndexPage extends React.Component {
               <div className="tile is-vertical is-8">
                 <div className="tile">
                   <div className="tile is-parent is-vertical">
-                    <article className="tile is-child notification is-primary">
+                    <article className="tile is-child notification tile-1">
                       <p className="title">👨‍💻Code challenges</p>
                       <p className="subtitle">Codepens and more</p>
                     </article>
-                    <article className="tile is-child notification is-warning">
+                    <article className="tile is-child notification tile-2">
                       <p className="title">🎤Audiorecorder </p>
                       <p className="subtitle">
                         Curious about your voice output? call this number and
@@ -113,7 +91,7 @@ export default class IndexPage extends React.Component {
                     </article>
                   </div>
                   <div className="tile is-parent">
-                    <article className="tile is-child notification is-info">
+                    <article className="tile is-child notification tile-2">
                       <p className="title">⚽PinoleroGO</p>
                       <p className="subtitle">
                         Crowdfunded 10k to build sport facilities for a school
@@ -129,7 +107,7 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
                 <div className="tile is-parent">
-                  <article className="tile is-child notification is-danger">
+                  <article className="tile is-child notification tile-1">
                     <p className="title">💡Any ideas? </p>
                     <p className="subtitle">
                       Would love to collaborate on stuff! 🙌
@@ -139,7 +117,7 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="tile is-parent">
-                <article className="tile is-child notification is-success">
+                <article className="tile is-child notification tile-1">
                   <div className="content">
                     <p className="title">📆Team Reporting App </p>
                     <p className="subtitle">
@@ -157,22 +135,6 @@ export default class IndexPage extends React.Component {
             className="image is-64x64 is-pulled-left"
           />
         </section>
-
-        <footer className="footer is-primary columns no-right-padding">
-          <div className="column" />
-          <div className="column has-text-centered is-four-fifths">
-            <p>
-              <strong>Get in contact</strong>.
-            </p>
-          </div>
-          <div className="column">
-            <img
-              src={circusmonkey}
-              alt="circusmonkey"
-              className="image is-32x32 is-pulled-right"
-            />
-          </div>
-        </footer>
       </Layout>
     );
   }

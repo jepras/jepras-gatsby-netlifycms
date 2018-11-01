@@ -1,11 +1,36 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-$kaldi-red: #FD461E
-$kaldi-red-invert: #fff
+$own-red: #FD461E
+$own-orange: #D79922
+$own-base: #EFE2BA
+$own-purple: #4056A1
+$own-blue: #C5CBE3
+$white: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $own-red
+$secondary: $own-base
+$third: $own-orange
+$fourth: $own-purple
+$fifth: $own-blue
+
+.tile-1
+  background-color: $primary !important
+  color: $white
+
+.tile-2
+  background-color: $secondary !important
+
+.ftr
+  background-color: $secondary !important
+
+.screen
+  height: 100vh
+  display: flex
+  flex-direction: column
+
+.page
+  flex: 1 0 auto
 
 .content .taglist
   list-style: none
