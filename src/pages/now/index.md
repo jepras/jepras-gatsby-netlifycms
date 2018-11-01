@@ -1,15 +1,17 @@
 ---
-templateKey: 'now-page'
-path: /now
+templateKey: now-page
 title: What I am currently doing
 ---
+_Last updated on the 11/1/2018_
 
-### What I am up to
 
-Last updated:
 
-Currently working on
+**Work: **As a Project Manager for cloud & security projects in Microsoft.
 
-Currently learning
+**Learning: **To build full-stack applications. 
 
-Other habits
+* Doing #100DaysOfCode challenge.
+* Halfway through freeCodeCamp.org to get full-stack certification.
+* Working on a [TeamReporter ](https://teamreportingapp.firebaseapp.com)application.
+
+**Living: **In Copenhagen.
