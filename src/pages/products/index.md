@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Our Coffee
+title: Projects
 image: /img/digitalnomad-3-.jpg
 heading: What we offer
 description: >-
