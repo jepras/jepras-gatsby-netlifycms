@@ -10,7 +10,7 @@ description: >-
   kinda messy. 
 intro:
   blurbs:
-    - image: /img/12244720_1649204598629703_6545847221523179536_o.jpg
+    - image: /img/indiegogo-pinolerogo.png
       text: Crowdfunded 10.000$ to build sport facilities for a school in Nicaragua
     - image: /img/pleasantly2.png
       text: >-
@@ -18,9 +18,9 @@ intro:
         Enabled by beacons it creates real world contextual experiences ([HeroX
         idea competition
         winner](https://www.herox.com/10minutechallenge/round/179/entry/10536))
-    - image: /img/tutorials.png
+    - image: /img/trapp.png
       text: '*Application* to test audio quality before remote meetings'
-    - image: /img/meeting-space.png
+    - image: /img/reccall.png
       text: Team Reporting App that automates task logging & report generation
   heading: ''
   description: |+
@@ -37,15 +37,15 @@ main:
     was the outcome..
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/12244720_1649204598629703_6545847221523179536_o.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/12418865_1661239594092870_5006679964399066812_o.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/pinolerogo.png
 testimonials: []
-full_image: /img/products-full-width.jpg
+full_image: /img/digitalnomad-3-.jpg
 pricing:
   heading: ''
   description: ''
