@@ -12,11 +12,12 @@ intro:
   blurbs:
     - image: /img/12244720_1649204598629703_6545847221523179536_o.jpg
       text: Crowdfunded 10.000$ to build sport facilities for a school in Nicaragua
-    - image: /img/coffee-gear.png
+    - image: /img/pleasantly2.png
       text: >-
-        A projector creates a personal avatar that serves as the kid's guide.
-        Enabled by beacons it creates real world contextual experiences (idea
-        competition)
+        A projector *creates* a personal avatar that serves as the kid's guide.
+        Enabled by beacons it creates real world contextual experiences ([HeroX
+        idea competition
+        winner](https://www.herox.com/10minutechallenge/round/179/entry/10536))
     - image: /img/tutorials.png
       text: '*Application* to test audio quality before remote meetings'
     - image: /img/meeting-space.png
