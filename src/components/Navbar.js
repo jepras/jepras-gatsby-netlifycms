@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/jr.png';
-import circusmonkey from '../img/monkey/circus-monkey.png';
 
 const Navbar = () => (
   <nav className="navbar">

@@ -8,9 +8,6 @@ import tailmonkey from '../img/monkey/tailmonkey.png';
 import jeppe from '../img/jeppe-no-bg.png';
 import SocialMedia from '../components/SocialMedia';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGhost, faTwitter } from '@fortawesome/free-solid-svg-icons';
-
 export default class IndexPage extends React.Component {
   render() {
     return (
@@ -52,16 +49,16 @@ export default class IndexPage extends React.Component {
               <hr />
               <p className="subtitle">
                 Schooled as a marketeer, currently managing projects in
-                Microsoft & building stuff/learning to code on the side 💪
+                Microsoft & building stuff/learning to code on the side <span role="img" aria-label="strong-arm">💪</span>
                 <br />
                 <br />
                 Previously I have crowdfunded my way to create sport facilities
                 for a school in Nicaragua, lived as a digital nomad with my
                 data-driven marketing consulting business and done Digital
-                Marketing for a startup ✈️
+                Marketing for a startup <span role="img" aria-label="strong-arm">✈️</span>
                 <br />
                 <br /> Currently living, socializing, reading, coding, climbing
-                & running around Copenhagen ☀️
+                & running around Copenhagen <span role="img" aria-label="strong-arm">☀️</span>
                 <br />
                 <br />
                 <Link to="/about">Want to know more?</Link>
@@ -79,11 +76,11 @@ export default class IndexPage extends React.Component {
                 <div className="tile">
                   <div className="tile is-parent is-vertical">
                     <article className="tile is-child notification tile-1">
-                      <p className="title">👨‍💻Code challenges</p>
+                      <p className="title"><span role="img" aria-label="strong-arm">👨‍💻</span>Code challenges</p>
                       <p className="subtitle">Codepens and more</p>
                     </article>
                     <article className="tile is-child notification tile-2">
-                      <p className="title">🎤Audiorecorder </p>
+                      <p className="title"><span role="img" aria-label="strong-arm">🎤</span>Audiorecorder </p>
                       <p className="subtitle">
                         Curious about your voice output? call this number and
                         get your recording
@@ -92,10 +89,10 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child notification tile-2">
-                      <p className="title">⚽PinoleroGO</p>
+                      <p className="title"><span role="img" aria-label="strong-arm">⚽PinoleroGO</span></p>
                       <p className="subtitle">
                         Crowdfunded 10k to build sport facilities for a school
-                        in Nicaragua 😍
+                        in Nicaragua <span role="img" aria-label="strong-arm">😍</span>
                       </p>
                       <figure className="image is-4by3">
                         <img
@@ -108,9 +105,9 @@ export default class IndexPage extends React.Component {
                 </div>
                 <div className="tile is-parent">
                   <article className="tile is-child notification tile-1">
-                    <p className="title">💡Any ideas? </p>
+                    <p className="title"><span role="img" aria-label="strong-arm">💡</span>Any ideas? </p>
                     <p className="subtitle">
-                      Would love to collaborate on stuff! 🙌
+                      Would love to collaborate on stuff! <span role="img" aria-label="strong-arm">🙌</span>
                     </p>
                     <div className="content" />
                   </article>
@@ -119,7 +116,7 @@ export default class IndexPage extends React.Component {
               <div className="tile is-parent">
                 <article className="tile is-child notification tile-1">
                   <div className="content">
-                    <p className="title">📆Team Reporting App </p>
+                    <p className="title"><span role="img" aria-label="strong-arm">📆</span>Team Reporting App </p>
                     <p className="subtitle">
                       Automated logging and report generation
                     </p>

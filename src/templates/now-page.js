@@ -18,6 +18,11 @@ export const NowPageTemplate = ({ title, content, contentComponent }) => {
               </h2>
               <PageContent className="content" content={content} />
             </div>
+            <div className="section">
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a class="twitter-timeline" data-theme="light" data-link-color="#FD461E" href="https://twitter.com/jepras_?ref_src=twsrc%5Etfw">Tweets by jepras_</a></p> </blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </div>
           </div>
         </div>
       </div>
