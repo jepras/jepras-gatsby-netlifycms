@@ -2,100 +2,53 @@
 templateKey: product-page
 title: Projects
 image: /img/digitalnomad-3-.jpg
-heading: What we offer
+heading: Things I have done so far..
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  As an aspiring entrepreneur have I been a part of projects in various areas .
+  Hopefully in the future I will be able to connect the dots looking backwards
+  and see a perfect trajectory towards something amazing - but for now it is
+  kinda messy. 
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    - image: /img/indiegogo-pinolerogo.png
+      text: Crowdfunded 10.000$ to build sport facilities for a school in Nicaragua
+    - image: /img/pleasantly2.png
+      text: >-
+        A projector *creates* a personal avatar that serves as the kid's guide.
+        Enabled by beacons it creates real world contextual experiences ([HeroX
+        idea competition
+        winner](https://www.herox.com/10minutechallenge/round/179/entry/10536))
+    - image: /img/trapp.png
+      text: '*Application* to test audio quality before remote meetings'
+    - image: /img/reccall.png
+      text: Team Reporting App that automates task logging & report generation
+  heading: ''
+  description: |+
+
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Most proud of
+  description: >-
+    PinoleroGO. During month 1-3 I build upon the idea, validated the idea in
+    the village, reached out to my network on how to do this & read everything I
+    could about it. The next month was spent preparing the crowdfunding
+    campaign. Month 4 was a constant effort to reach out to as many as possible.
+    Thanks to hundreds of kind souls we had the money 3 days before our
+    all-or-nothing campaign deadline, so the last month was spent building. This
+    was the outcome..
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/12244720_1649204598629703_6545847221523179536_o.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/12418865_1661239594092870_5006679964399066812_o.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+    image: /img/pinolerogo.png
+testimonials: []
+full_image: /img/digitalnomad-3-.jpg
 pricing:
-  heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+  heading: ''
+  description: ''
+  plans: []
 ---
 
