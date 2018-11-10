@@ -8,24 +8,27 @@ export const NowPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section section--gradient hero-body is-fullheight">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section columns">
               
-              <div className="column is-two-thirds"><h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
+              <div className="column is-two-thirds">
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  {title}
+                </h2>
+                <PageContent className="content" content={content} />
               </div>
-            
-            <div className="column is-one-third">
-            
-            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a class="twitter-timeline" data-theme="light" data-link-color="#FD461E" href="https://twitter.com/jepras_?ref_src=twsrc%5Etfw">Tweets by jepras_</a></p> </blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-            </div>
+
+            
+              <div className="column is-one-third">
+            
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a class="twitter-timeline" data-height="400" data-theme="light" data-link-color="#FD461E" href="https://twitter.com/jepras_?ref_src=twsrc%5Etfw">Tweets by jepras_</a></p> </blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+              </div>
             </div>
           </div>
         </div>

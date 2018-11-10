@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import logo from '../img/jr.png';
 
 const Navbar = () => (
-  <nav className="navbar">
+  <nav className="navbar hero-head">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
@@ -16,11 +16,8 @@ const Navbar = () => (
         <Link className="navbar-item" to="/now">
           Now
         </Link>
-        <Link className="navbar-item" to="/products">
+        <Link className="navbar-item" to="/projects">
           Projects
-        </Link>
-        <Link className="navbar-item" to="/contact">
-          Contact
         </Link>
         <Link className="navbar-item" to="/blog">
           Blog

@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: project-page
 title: Projects
 image: /img/digitalnomad-3-.jpg
 heading: What we offer

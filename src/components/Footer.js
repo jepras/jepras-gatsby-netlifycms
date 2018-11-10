@@ -3,7 +3,7 @@ import circusmonkey from '../img/monkey/circus-monkey.png';
 import SocialMedia from '../components/SocialMedia';
 
 const Navbar = () => (
-  <footer className="footer columns no-right-padding ftr">
+  <footer className="footer columns no-right-padding ftr hero-foot">
     <div className="column" />
     <div className="column has-text-centered is-four-fifths">
       <p>

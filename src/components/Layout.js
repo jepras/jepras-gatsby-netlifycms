@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
-  <div className="screen">
+  <div className="screen hero">
     <Helmet>
       <title>JepRas | Personal Website</title>
       <script

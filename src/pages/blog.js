@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import jeppe from '../../static/img/jeppe-with-bg.jpg';
+import SocialMedia from '../components/SocialMedia';
+
+
 
 export default class BlogPage extends React.Component {
   render() {
@@ -10,23 +14,20 @@ export default class BlogPage extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
+        <section className="section hero-body is-fullheight">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-              <p className="subtitle">subtitle</p>
-              <p>normal</p>
-              <div className="columns">
-                <div className="column">1</div>
-                <div className="column">2</div>
-                <div className="column">3</div>
-                <div className="column">4</div>
-                <div className="column">5</div>
-              </div>
-              <a className="button is-primary" href="/">
-                Primary button
-              </a>
-            </div>
+          <div className="columns is-centered">
+          <div className="column is-2">
+            <h1 className="title">Jeppe Rasmussen</h1>
+            <p className="subtitle is-6">Project Manager @ Microsoft</p>
+            <hr />
+            <img src={jeppe} alt="Jeppe" className="margin-bottom-0" />
+            <br /><hr />
+            <SocialMedia /> 
+          
+          </div>
+            <div className="content column is-10">
+              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>          
 
             {posts.map(({ node: post }) => (
               <div
@@ -51,7 +52,10 @@ export default class BlogPage extends React.Component {
                 </p>
               </div>
             ))}
+            </div>
           </div>
+          </div>
+          
         </section>
       </Layout>
     );

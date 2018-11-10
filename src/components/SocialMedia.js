@@ -5,7 +5,7 @@ import linkedin from '../img/linkedin.svg';
 import github from '../img/github-icon.svg';
 
 const SocialMedia = () => (
-  <div>
+  <div className="has-text-centered">
     <img
       src={instagram}
       href="https://www.instagram.com/jep.ras/"
