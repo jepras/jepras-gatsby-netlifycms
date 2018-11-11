@@ -12,16 +12,20 @@ intro:
   blurbs:
     - image: /img/indiegogo-pinolerogo.png
       text: Crowdfunded 10.000$ to build sport facilities for a school in Nicaragua
+      link: https://indiegogo.com/projects/empower-nicaraguan-kids-through-sport
     - image: /img/pleasantly2.png
+      link: https://www.herox.com/10minutechallenge/round/179/entry/10536
       text: >-
-        A projector *creates* a personal avatar that serves as the kid's guide.
-        Enabled by beacons it creates real world contextual experiences ([HeroX
+        A projector creates a personal avatar that serves as the kid's guide.
+        Enabled by beacons it creates real world contextual experiences HeroX
         idea competition
-        winner](https://www.herox.com/10minutechallenge/round/179/entry/10536))
+        winner..
     - image: /img/trapp.png
-      text: '*Application* to test audio quality before remote meetings'
+      text: Application to test audio quality before remote meetings
+      link: https://reccall.herokuapp.com
     - image: /img/reccall.png
       text: Team Reporting App that automates task logging & report generation
+      link: https://teamreportingapp.firebaseapp.com
   heading: ''
   description: |+
 

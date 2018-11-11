@@ -64,7 +64,7 @@ export const ProjectPageTemplate = ({
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
-                    <div className="tile is-parent is-vertical">
+                    <div className="tile is-parent is-vertical"><a href="https://indiegogo.com/projects/empower-nicaraguan-kids-through-sport" target="_blank">
                       <article className="tile is-child">
                         <img
                           style={{ borderRadius: '5px' }}
@@ -72,8 +72,8 @@ export const ProjectPageTemplate = ({
                           alt={main.image1.alt}
                         />
                       </article>
-                    </div>
-                    <div className="tile is-parent">
+                      </a></div>
+                    <div className="tile is-parent"><a href="https://indiegogo.com/projects/empower-nicaraguan-kids-through-sport" target="_blank">
                       <article className="tile is-child">
                         <img
                           style={{ borderRadius: '5px' }}
@@ -81,9 +81,9 @@ export const ProjectPageTemplate = ({
                           alt={main.image2.alt}
                         />
                       </article>
-                    </div>
+                      </a></div>
                   </div>
-                  <div className="tile is-parent">
+                  <div className="tile is-parent"><a href="https://www.youtube.com/watch?v=5lpXoREGyEQ" target="_blank">
                     <article className="tile is-child">
                       <img
                         style={{ borderRadius: '5px' }}
@@ -91,7 +91,7 @@ export const ProjectPageTemplate = ({
                         alt={main.image3.alt}
                       />
                     </article>
-                  </div>
+                    </a></div>
                 </div>
               </div>
               
@@ -170,6 +170,7 @@ export const projectPageQuery = graphql`
           blurbs {
             image
             text
+            link
           }
           heading
           description

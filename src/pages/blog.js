@@ -18,8 +18,8 @@ export default class BlogPage extends React.Component {
           <div className="container">
           <div className="columns is-centered">
           <div className="column is-2">
-            <h1 className="title">Jeppe Rasmussen</h1>
-            <p className="subtitle is-6">Project Manager @ Microsoft</p>
+            <h1 className="title is-4">Jeppe Rasmussen</h1>
+            <p className="subtitle is-7">Project Manager @ Microsoft</p>
             <hr />
             <img src={jeppe} alt="Jeppe" className="margin-bottom-0" />
             <br /><hr />

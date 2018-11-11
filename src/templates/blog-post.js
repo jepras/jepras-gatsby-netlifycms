@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import jeppe from '../../static/img/jeppe-with-bg.jpg';
+import SocialMedia from '../components/SocialMedia';
 
 export const BlogPostTemplate = ({
   content,
@@ -17,11 +19,20 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+    <section className="section hero-body is-fullheight">
+    {helmet || ''}
+          <div className="container">
+          <div className="columns is-centered">
+          <div className="column is-2">
+            <h1 className="title is-4">Jeppe Rasmussen</h1>
+            <p className="subtitle is-7">Project Manager @ Microsoft</p>
+            <hr />
+            <img src={jeppe} alt="Jeppe" className="margin-bottom-0" />
+            <br /><hr />
+            <SocialMedia /> 
+          
+          </div>
+            <div className="content column is-10">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -40,9 +51,11 @@ export const BlogPostTemplate = ({
               </div>
             ) : null}
           </div>
-        </div>
-      </div>
-    </section>
+          </div></div>
+          
+        </section>
+
+  
   )
 }
 

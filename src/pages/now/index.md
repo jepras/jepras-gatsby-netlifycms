@@ -15,3 +15,5 @@ _Last updated on the 11/1/2018_
 * Working on a [TeamReporter ](https://teamreportingapp.firebaseapp.com)application.
 
 **Living:** In Copenhagen.
+
+.. random things I enjoy atm
