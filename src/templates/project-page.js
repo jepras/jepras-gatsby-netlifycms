@@ -12,12 +12,15 @@ export const ProjectPageTemplate = ({
   intro,
   main,
 }) => (
+  
   <section className="section section--gradient">
     <div className="container">
       <div className="section">
         <div className="columns">
           <div className="column is-11 is-offset-1">
             <div className="content">
+
+              {/* MAIN IMAGE
               <div
                 className="full-width-image-container margin-top-0"
                 style={{ backgroundImage: `url(${image})` }}
@@ -33,7 +36,9 @@ export const ProjectPageTemplate = ({
                 >
                   {title}
                 </h2>
-              </div>
+              </div> */}
+
+              {/* INTRODUCTION */}
               <div className="columns">
                 <div className="column is-10">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -42,7 +47,11 @@ export const ProjectPageTemplate = ({
                   <p>{description}</p>
                 </div>
               </div>
+
+              {/* 4 FEATURE SQUARES */}
               <Features gridItems={intro.blurbs} />
+
+              {/* BOTTOM TEXT & IMAGES */}
               <div className="columns">
                 <div className="column is-11">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -51,6 +60,7 @@ export const ProjectPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div>
+
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
@@ -119,6 +129,7 @@ ProjectPageTemplate.propTypes = {
 
 const ProjectPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  console.log(frontmatter)
 
   return (
     <Layout>
