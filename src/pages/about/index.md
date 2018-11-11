@@ -1,6 +1,6 @@
 ---
 templateKey: 'about-page'
-path: /about
+path: /projects/about
 title: About our values
 ---
 
