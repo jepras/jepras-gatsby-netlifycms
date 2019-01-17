@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
 
+import gatsbyarc from "../img/gatsbyarc.png";
+import rib from "../img/rib3.png";
+import ribclimbing from "../img/ribclimbing.png";
+
 export default class Projects extends React.Component {
   render() {
     return (
@@ -176,7 +180,7 @@ export default class Projects extends React.Component {
                         <div className="column is-6">
                           <img
                             style={{ borderRadius: "5px" }}
-                            src={"/img/gatsbyarchitecture.png"}
+                            src={gatsbyarc}
                             alt="Gatsby Architecture"
                           />
                         </div>
@@ -342,7 +346,7 @@ export default class Projects extends React.Component {
                                 <article className="tile is-child">
                                   <img
                                     style={{ borderRadius: "5px" }}
-                                    src={"/img/rib4.png"}
+                                    src={rib}
                                     alt="alt text"
                                   />
                                 </article>
@@ -351,7 +355,7 @@ export default class Projects extends React.Component {
                                 <article className="tile is-child">
                                   <img
                                     style={{ borderRadius: "5px" }}
-                                    src="/img/ribclimbing.png"
+                                    src={ribclimbing}
                                     alt="alt"
                                   />
                                 </article>
