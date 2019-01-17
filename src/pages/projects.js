@@ -176,7 +176,7 @@ export default class Projects extends React.Component {
                         <div className="column is-6">
                           <img
                             style={{ borderRadius: "5px" }}
-                            src={"/img/gatsbyarchitecture.png"}
+                            src={"/img/gatsbyarchitecture.jpg"}
                             alt="Gatsby Architecture"
                           />
                         </div>
