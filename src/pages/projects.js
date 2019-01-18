@@ -25,8 +25,7 @@ export default class Projects extends React.Component {
                           As an aspiring entrepreneur have I been a part of
                           projects in various areas. Hopefully in the future I
                           will be able to connect the dots looking backwards and
-                          see a perfect trajectory towards something amazing -
-                          but for now it is kinda messy.{" "}
+                          see a perfect trajectory towards something amazing.
                         </p>
                       </div>
                     </div>
@@ -36,8 +35,16 @@ export default class Projects extends React.Component {
                       <p>
                         As a front end React/Redux developer I love leveraging
                         the power of APIs to build and integrate many tools into
-                        something powerful. I am a big fan of everthing
-                        serverless, integrated and automated.
+                        something powerful. <br />
+                        <br />
+                        Front end development is way more powerful than just
+                        html/css. From the client you can run a function that
+                        hits an API endpoint served by a Cloud Function and
+                        read/write from a database through that. <br />
+                        <br />
+                        This is great for companies as it lowers their
+                        maintenance cost, increases security & flexibility in
+                        their applications.
                       </p>
 
                       <br />

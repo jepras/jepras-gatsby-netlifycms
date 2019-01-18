@@ -1,12 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import monkey from '../img/monkey/monkey.png';
-import circusmonkey from '../img/monkey/circus-monkey.png';
-import tailmonkey from '../img/monkey/tailmonkey.png';
-import jeppe from '../img/jeppe-no-bg.png';
-import SocialMedia from '../components/SocialMedia';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import monkey from "../img/monkey/monkey.png";
+import circusmonkey from "../img/monkey/circus-monkey.png";
+import tailmonkey from "../img/monkey/tailmonkey.png";
+import jeppe from "../img/jeppe-no-bg.png";
+import pinolerogogirl from "../img/pinolerogogirl.jpg";
+import SocialMedia from "../components/SocialMedia";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -49,19 +50,28 @@ export default class IndexPage extends React.Component {
               <hr />
               <p className="subtitle">
                 Schooled as a marketeer, currently managing projects in
-                Microsoft & building stuff/learning to code on the side <span role="img" aria-label="strong-arm">💪</span>
+                Microsoft & building stuff/learning to code on the side{" "}
+                <span role="img" aria-label="strong-arm">
+                  💪
+                </span>
                 <br />
                 <br />
                 Previously I have crowdfunded my way to create sport facilities
                 for a school in Nicaragua, lived as a digital nomad with my
                 data-driven marketing consulting business and done Digital
-                Marketing for a startup <span role="img" aria-label="strong-arm">✈️</span>
+                Marketing for a startup{" "}
+                <span role="img" aria-label="strong-arm">
+                  ✈️
+                </span>
                 <br />
                 <br /> Currently living, socializing, reading, coding, climbing
-                & running around Copenhagen <span role="img" aria-label="strong-arm">☀️</span>
+                & running around Copenhagen{" "}
+                <span role="img" aria-label="strong-arm">
+                  ☀️
+                </span>
                 <br />
                 <br />
-                <Link to="/about">Want to know more?</Link>
+                <Link to="/now">Want to know more?</Link>
               </p>
               <img src={monkey} alt="Monkey" className="less-padding" />
             </div>
@@ -76,11 +86,26 @@ export default class IndexPage extends React.Component {
                 <div className="tile">
                   <div className="tile is-parent is-vertical">
                     <article className="tile is-child notification tile-1">
-                      <p className="title"><span role="img" aria-label="strong-arm">👨‍💻</span>Code challenges</p>
-                      <p className="subtitle">Codepens and more</p>
+                      <p className="title">
+                        <span role="img" aria-label="strong-arm">
+                          👨‍💻
+                        </span>{" "}
+                        <a href="/projects/codechallenges">Code challenges</a>
+                      </p>
+                      <p className="subtitle">
+                        Codepens, freeCodeCamp challenges and other learning
+                        projects
+                      </p>
                     </article>
                     <article className="tile is-child notification tile-2">
-                      <p className="title"><span role="img" aria-label="strong-arm">🎤</span>Audiorecorder </p>
+                      <p className="title">
+                        <span role="img" aria-label="strong-arm">
+                          🎤
+                        </span>{" "}
+                        <a href="https://reccall.herokuapp.com/">
+                          Audiorecorder
+                        </a>{" "}
+                      </p>
                       <p className="subtitle">
                         Curious about your voice output? call this number and
                         get your recording
@@ -89,15 +114,26 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child notification tile-2">
-                      <p className="title"><span role="img" aria-label="strong-arm">⚽PinoleroGO</span></p>
+                      <p className="title">
+                        <span role="img" aria-label="strong-arm">
+                          ⚽
+                        </span>{" "}
+                        <a href="https://www.youtube.com/watch?v=5lpXoREGyEQ">
+                          PinoleroGO
+                        </a>
+                      </p>
                       <p className="subtitle">
                         Crowdfunded 10k to build sport facilities for a school
-                        in Nicaragua <span role="img" aria-label="strong-arm">😍</span>
+                        in Nicaragua{" "}
+                        <span role="img" aria-label="strong-arm">
+                          😍
+                        </span>
                       </p>
                       <figure className="image is-4by3">
                         <img
                           alt="test"
-                          src="https://bulma.io/images/placeholders/640x480.png"
+                          src={pinolerogogirl}
+                          style={{ borderRadius: "5px" }}
                         />
                       </figure>
                     </article>
@@ -105,9 +141,19 @@ export default class IndexPage extends React.Component {
                 </div>
                 <div className="tile is-parent">
                   <article className="tile is-child notification tile-1">
-                    <p className="title"><span role="img" aria-label="strong-arm">💡</span>Any ideas? </p>
+                    <p className="title">
+                      <span role="img" aria-label="strong-arm">
+                        💡
+                      </span>
+                      Any ideas?{" "}
+                    </p>
                     <p className="subtitle">
-                      Would love to collaborate on stuff! <span role="img" aria-label="strong-arm">🙌</span>
+                      Would love to collaborate on stuff!{" "}
+                      <span role="img" aria-label="strong-arm">
+                        🙌
+                      </span>
+                      Reach out to me on{" "}
+                      <a href="https://twitter.com/jepras_">Twitter</a>
                     </p>
                     <div className="content" />
                   </article>
@@ -116,10 +162,37 @@ export default class IndexPage extends React.Component {
               <div className="tile is-parent">
                 <article className="tile is-child notification tile-1">
                   <div className="content">
-                    <p className="title"><span role="img" aria-label="strong-arm">📆</span>Team Reporting App </p>
-                    <p className="subtitle">
-                      Automated logging and report generation
+                    <p className="title">
+                      <span role="img" aria-label="strong-arm">
+                        🕶️
+                      </span>{" "}
+                      <a href="https://infiniteclimbing.netlify.com">
+                        Infinite Climbing
+                      </a>{" "}
                     </p>
+                    <p className="subtitle">
+                      An Augmented Reality climbing game that supports kids in
+                      their rehabilitation. <br />
+                      <div className="tile is-parent columns">
+                        <article className="tile is-child column is-12">
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/i1H5X_d0qYA"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          />
+                        </article>
+                      </div>
+                      Infinite Climbing helps sick kids perform tedious
+                      exercises by turning it into a game.
+                      <br /> <br />
+                      <Link to="/now">
+                        Press here to see my portfolio and more projects
+                      </Link>
+                    </p>
+
                     <div className="content" />
                   </div>
                 </article>
@@ -166,12 +239,11 @@ export const pageQuery = graphql`
         }
       }
     }
-    
+
     site {
       siteMetadata {
         title
       }
     }
-    
   }
 `;
