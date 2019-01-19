@@ -117,6 +117,14 @@ The power of community is incredible. Winning the tournament would be an extra
 benefit, but being a part of this community for the last month has helped me
 turn my idea from a mere dream into something I actually believe in.
 
+From:
+
+![](https://cdn-images-1.medium.com/max/1600/1*ehq2eJ0eiRW8TcjlN2Cdbg.png)
+
+To:
+
+<span class="figcaption_hack">[https://infiniteclimbing.netlify.com](https://infiniteclimbing.netlify.com/)</span>
+
 In a post about why Pioneer was founded, Daniel highlights how important it was
 for him in his journey to have someone actually believing in you. When you feel
 that people believe in you, you get inspired to make things happen.
