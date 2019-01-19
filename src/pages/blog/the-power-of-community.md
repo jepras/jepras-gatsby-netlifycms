@@ -121,9 +121,7 @@ From:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*ehq2eJ0eiRW8TcjlN2Cdbg.png)
 
-To:
-
-<span class="figcaption_hack">[https://infiniteclimbing.netlify.com](https://infiniteclimbing.netlify.com/)</span>
+To [this[](https://youtu.be/qxTZG8x__Z4)
 
 In a post about why Pioneer was founded, Daniel highlights how important it was
 for him in his journey to have someone actually believing in you. When you feel
