@@ -2,18 +2,14 @@
 templateKey: now-page
 title: What I am currently doing
 ---
-_Last updated on the 11/1/2018_
 
+_Last updated on the 11/2/2018_
 
+**Working:** On enabling more reuse of building materials with [BeResourceful](https://beresourceful.org). Also, developing a [climbing AR rehabilitation tool/game](https://infiniteclimbing.org) for kids to get healthy.
 
-**Work:** As a Project Manager for cloud & security projects in Microsoft.
+**Learning:** New technologies.
 
-**Learning:** To build full-stack applications. 
-
-* Doing #100DaysOfCode challenge.
-* Halfway through freeCodeCamp.org to get full-stack certification.
-* Working on a [TeamReporter ](https://teamreportingapp.firebaseapp.com)application.
+- Learning about IoT & sensor hardware development for [BeResourceful](https://beresourceful.org).
+- Diving into AR development in Unity with [Infinite Climbing](https://infiniteclimbing.org) project.
 
 **Living:** In Copenhagen.
-
-.. random things I enjoy atm

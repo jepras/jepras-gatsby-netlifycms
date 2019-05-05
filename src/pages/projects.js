@@ -21,6 +21,8 @@ export default class Projects extends React.Component {
                         <h3 className="has-text-weight-semibold is-size-2">
                           Things I have done so far..
                         </h3>
+                        <canvas id="myChart" />
+
                         <p>
                           As an aspiring entrepreneur have I been a part of
                           projects in various areas. Hopefully in the future I

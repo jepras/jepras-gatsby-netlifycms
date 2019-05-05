@@ -49,8 +49,9 @@ export default class IndexPage extends React.Component {
               <h1 className="title is-2">Me in 10 seconds</h1>
               <hr />
               <p className="subtitle">
-                Schooled as a marketeer, currently managing projects in
-                Microsoft & building stuff/learning to code on the side{" "}
+                Schooled as a marketeer, previously managed cloud + security
+                projects in Microsoft & now on a journey to build my own impact
+                startup (while coding on the side){" "}
                 <span role="img" aria-label="strong-arm">
                   💪
                 </span>
@@ -88,13 +89,13 @@ export default class IndexPage extends React.Component {
                     <article className="tile is-child notification tile-1">
                       <p className="title">
                         <span role="img" aria-label="strong-arm">
-                          👨‍💻
+                          🏗 ️
                         </span>{" "}
-                        <a href="/projects/codechallenges">Code challenges</a>
+                        <a href="/projects/codechallenges">BeResourceful</a>
                       </p>
                       <p className="subtitle">
-                        Codepens, freeCodeCamp challenges and other learning
-                        projects
+                        IoT platform to trace building components in the
+                        construction sector to enable more reuse of materials
                       </p>
                     </article>
                     <article className="tile is-child notification tile-2">
