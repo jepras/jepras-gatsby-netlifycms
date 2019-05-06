@@ -13,7 +13,7 @@ This wasn’t my first Founders of Tomorrow bootcamp. Three years ago, I applied
 
 #### FoT the first time around
 
-Just before FoT 2016, I finished my master’s. While travelling, I’d started a youth empowerment startup in Nicaragua](https://www.indiegogo.com/projects/empower-nicaraguan-kids-through-sport#/). It was an amazing experience, and ever since then, I’d been looking for other social enterprises to channel my energy into.
+Just before FoT 2016, I finished my master’s. While travelling, I’d started a youth empowerment [startup in Nicaragua](https://www.indiegogo.com/projects/empower-nicaraguan-kids-through-sport#/). It was an amazing experience, and ever since then, I’d been looking for other social enterprises to channel my energy into.
 
 I read a lot. Too much. My absorption-to-creation ratio was out of whack. I felt I like learned a lot but didn’t know how to apply my reading to something creative and productive. That was my mindset at FoT in 2016. I had a head full of new knowledge but no way to communicate it or put it into action.
 

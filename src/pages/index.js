@@ -91,7 +91,7 @@ export default class IndexPage extends React.Component {
                         <span role="img" aria-label="strong-arm">
                           🏗 ️
                         </span>{" "}
-                        <a href="/projects/codechallenges">BeResourceful</a>
+                        <a href="https://beresourceful.org">BeResourceful</a>
                       </p>
                       <p className="subtitle">
                         IoT platform to trace building components in the
